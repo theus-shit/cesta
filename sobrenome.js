@@ -1,6 +1,6 @@
 import React from "react";
 import {Text} from "react-native";
 
-export default function sobrenome(){
-    return <Text>Dias</Text>
+export default function Sobrenome({sobrenome}){
+    return <Text> {sobrenome} </Text>
 }
