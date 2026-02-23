@@ -1,6 +1,6 @@
 import React from "react";
 
-expor default fuction Cesta(){
+export default fuction Cesta(){
     return<>
     <Text>Olá</Text>
     </>

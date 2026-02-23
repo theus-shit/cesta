@@ -1,5 +1,5 @@
 import { Text, SafeAreaView} from 'react-native';
-import Sobrenome from './sobrenome';
+import Cesta from './src/Telas/Cesta';
 
 export default function App() {
   return (
