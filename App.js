@@ -4,8 +4,7 @@ import Sobrenome from './sobrenome';
 export default function App() {
   return (
       <SafeAreaView>    
-      <Text>matheus</Text>
-      <Sobrenome sobrenome="Dias" />
+     <Cesta />
       </SafeAreaView>
   );
 }
