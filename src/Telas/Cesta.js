@@ -1,7 +1,9 @@
 import React from "react";
-import { Text,Image } from "react-native";
+import { Text,Image, Dimensions, StyleSheet } from "react-native";
 
 import topo from '../../assets/topo.png';
+
+const whidth= Dimensions.get('screen'). width;
 
 export default function Cesta(){
     return<>
@@ -16,3 +18,10 @@ export default function Cesta(){
 
     </>
 }
+
+const estilos = StyleSheet.create({
+topo:{
+    width:"100%",
+    height: 578 / 768 * width
+}
+})
