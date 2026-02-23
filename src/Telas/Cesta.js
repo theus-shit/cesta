@@ -1,7 +1,9 @@
 import React from "react";
+import { Text } from "react-native";
 
-export default fuction Cesta(){
+export default function Cesta(){
     return<>
     <Text>Olá</Text>
+
     </>
 }
