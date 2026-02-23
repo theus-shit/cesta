@@ -1,9 +1,11 @@
 import React from "react";
-import { Text } from "react-native";
+import { Text,Image } from "react-native";
+
+import topo from '../../assets/topo.png';
 
 export default function Cesta(){
     return<>
-    <Text>Olá</Text>
+    <Image source={topo} />
 
     </>
 }
